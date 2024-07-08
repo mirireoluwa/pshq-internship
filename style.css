@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(26, 26, 26);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  background-color: rgb (20, 20, 20);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.5);
+}
+
+.avatar {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.webpage {
+  background-color: rgb(26, 26, 26) ;
+  text-align: center;
+}
+
+.paragraph1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.paragraph2 {
+  color: rgb(197, 248, 42);
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.paragraph3 {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: semi-bold;
+}
+.button {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(197, 248, 42);
+  color: rgb(0, 0, 0);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: rgb(200, 200, 200);
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.attribution a {
+  color: rgb(197, 248, 42);
+}
