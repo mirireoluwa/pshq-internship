@@ -1,0 +1,3 @@
+.infoline > :first-child {
+  @apply font-semibold;
+}

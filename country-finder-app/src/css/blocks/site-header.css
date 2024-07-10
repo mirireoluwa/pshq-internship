@@ -1,0 +1,7 @@
+.site-header {
+  @apply bg-white shadow dark:bg-dark-tint;
+}
+
+.site-header > .inner {
+  @apply py-6 justify-between gap-x-8;
+}
